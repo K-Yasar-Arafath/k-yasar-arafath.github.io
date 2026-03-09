@@ -2,74 +2,136 @@
 <html>
 <head>
 <title>K Yasar Arafath | Cybersecurity Portfolio</title>
+
 <style>
 body{
-font-family: Arial;
-margin:40px;
+font-family: Arial, sans-serif;
+margin:0;
 background:#f5f7fa;
 color:#333;
 }
 
-h1{
+header{
+background:#0a3d62;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+.profile{
+width:150px;
+border-radius:50%;
+margin-top:10px;
+}
+
+section{
+padding:40px;
+max-width:900px;
+margin:auto;
+}
+
+h2{
 color:#0a3d62;
+border-bottom:2px solid #ddd;
+padding-bottom:10px;
 }
 
 .project{
 background:white;
 padding:20px;
-margin-bottom:20px;
+margin-top:20px;
 border-radius:8px;
 box-shadow:0 2px 5px rgba(0,0,0,0.1);
 }
 
-img{
+.project img{
 max-width:100%;
 border-radius:6px;
+margin-top:10px;
 }
 
 a{
 color:#1e3799;
 text-decoration:none;
 }
+
+footer{
+text-align:center;
+padding:20px;
+background:#eee;
+margin-top:40px;
+}
 </style>
 </head>
 
 <body>
 
+<header>
 <h1>K Yasar Arafath</h1>
 <p>Cybersecurity Enthusiast | SOC Analyst Aspirant</p>
+<img src="profile.jpg" class="profile">
+</header>
 
-<h2>Projects</h2>
+<section>
+<h2>About Me</h2>
+<p>
+Self-taught cybersecurity enthusiast from a commerce background. 
+Focused on vulnerability assessment, network monitoring, threat analysis,
+and incident response. Passionate about building real-world security skills.
+</p>
+</section>
+
+<section>
+<h2>Skills</h2>
+<ul>
+<li>Network Security</li>
+<li>Vulnerability Assessment</li>
+<li>Log Analysis</li>
+<li>Packet Analysis</li>
+<li>Incident Response</li>
+<li>Threat Intelligence</li>
+</ul>
+</section>
+
+<section>
+<h2>Featured Projects</h2>
 
 <div class="project">
-<h3>Nmap Network Scanning</h3>
-<p>Performed network scanning to identify open ports and services.</p>
+<h3>Network Scanning using Nmap</h3>
+<p>Performed reconnaissance to identify open ports and services.</p>
 <img src="images/nmap.png">
 </div>
 
 <div class="project">
-<h3>Bettercap Network Monitoring</h3>
-<p>Monitored network traffic and analyzed packet flow.</p>
-<img src="images/bettercap.png">
-</div>
-
-<div class="project">
-<h3>OWASP ZAP Vulnerability Scan</h3>
-<p>Performed web vulnerability assessment using OWASP ZAP.</p>
-<img src="images/zap.png">
-</div>
-
-<div class="project">
 <h3>Wireshark Traffic Analysis</h3>
-<p>Captured and analyzed network packets using Wireshark.</p>
+<p>Captured and analyzed network packets to understand traffic behavior.</p>
 <img src="images/wireshark.png">
 </div>
 
 <div class="project">
 <h3>Linux Log Analysis</h3>
-<p>Investigated authentication logs to detect failed login attempts.</p>
+<p>Investigated authentication logs to detect suspicious login attempts.</p>
 <img src="images/loganalysis.png">
 </div>
+
+<div class="project">
+<h3>Phishing Email Investigation</h3>
+<p>Analyzed email headers, domains, and links to identify phishing indicators.</p>
+<img src="images/phishing.png">
+</div>
+
+</section>
+
+<section>
+<h2>Contact</h2>
+<p>Email: yasark2002@gmail.com</p>
+<p>GitHub: <a href="https://github.com/K-Yasar-Arafath">K-Yasar-Arafath</a></p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/k-yasar-arafath">LinkedIn Profile</a></p>
+</section>
+
+<footer>
+<p>© 2026 K Yasar Arafath</p>
+</footer>
 
 </body>
 </html>
